@@ -9,6 +9,12 @@ export type Author = Props;
 
 export const authors: Props[] = [
   {
+    name: "tiff",
+    slug: "tiff",
+    image: "./src/assets/authors/tiff.webp",
+    bio: "just an old lady who loves video games, cats, and home labs",
+  },
+  {
     name: "Mario Sanchez",
     slug: "mario-sanchez",
     image: "./src/assets/authors/mario.webp",

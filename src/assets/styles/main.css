@@ -1,0 +1,51 @@
+h1::selection {
+  background: #06d7d9;
+}
+
+h2::selection {
+  background: #ed54e1;
+}
+
+h3::selection {
+  background: #72f1b8;
+  color: white;
+}
+
+h4::selection {
+  background: #ff0067;
+  color: white;
+}
+
+p::selection {
+  background: #fe5186;
+  color: white;
+}
+
+code::selection {
+  background: #ed54e1;
+}
+
+ul::selection {
+  background: #ff1a75;
+  color: white;
+}
+
+ol::selection {
+  background: #72f1b8;
+  color: white;
+}
+
+li::selection {
+  background: #ff1a75;
+  color: white;
+}
+
+blockquote::selection {
+  background: #06d7d9;
+  color: white;
+}
+
+.prose-base :where(img):not(:where([class~="not-prose"] *)) {
+  box-shadow: -1px 17px 55px -29px rgba(161, 161, 167, 0.64);
+  border-radius: 15px !important;
+}

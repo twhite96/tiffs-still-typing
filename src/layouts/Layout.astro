@@ -2,6 +2,7 @@
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar.astro";
 import "@fontsource/inter/variable.css";
+import "@assets/styles/main.css"
 import { checkImageUrl } from "@utils/all";
 import { SEO } from "astro-seo";
 
@@ -18,8 +19,8 @@ const { title, desc, ogimage = "/opengraph.jpg" } = Astro.props;
 const resolvedOGImage = checkImageUrl(ogimage, Astro.site);
 
 const makeTitle = title
-  ? title + " | " + "Stablo"
-  : "Stablo — Free Blog Website Template built with Astro & MDX";
+  ? title + " | " + "tiff is typing"
+  : "a personal blog talking about whatever i want";
 ---
 
 <!DOCTYPE html>
